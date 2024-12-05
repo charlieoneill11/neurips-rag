@@ -1,0 +1,19 @@
+• Mechanistic interpretability
+• Sparse autoencoders
+• Transformer circuits
+• In-context learning
+• Reasoning in transformers
+• Planning in transformers
+• Foundation models
+• Large language models
+• Model optimisation
+• Inference optimisation
+• Language model steering
+• Reinforcement learning
+• Decision transformers
+• Supervised learning
+• Transformer-based arithmetic
+• Algorithmic reasoning
+• Generalisation in AI systems
+• Data efficiency
+• RAG systems
