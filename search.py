@@ -8,7 +8,6 @@ import tiktoken
 
 class PosterSearch:
     def __init__(self, embeddings_dir: str = "embeddings", embedding_model: str = "text-embedding-3-small"):
-        # Initialize OpenAI client
         config = yaml.safe_load(open('config.yaml', 'r'))
         self.client = OpenAI(api_key=config['openai_api_key'])
         self.embedding_model = embedding_model
@@ -130,10 +129,7 @@ if __name__ == "__main__":
     results = searcher.search("meta-learning reinforcement learning", k=5)
 
     # Search by author (partial match by default)
-    author_results = searcher.search_by_author("Jakob Foerster")
-
-    # Search by author with exact matching
-    exact_author_results = searcher.search_by_author("Foerster, Jakob", partial_match=False)
+    author_results = searcher.search_by_author("Neel Nanda")
 
     # Self search using self_description.txt
     self_results = searcher.self_search(k=10)

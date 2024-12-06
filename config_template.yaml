@@ -1,0 +1,5 @@
+user_data_dir: 'Your Chrome User Data Directory'
+headless: False
+openai_api_key: 'Your OpenAI API Key'
+username: 'Your Email Address for NeurIPS'
+password: 'Your Password for NeurIPS'
