@@ -187,7 +187,7 @@ def scrape_all_sessions(urls):
         
         page = context.new_page()
 
-        config = yaml.safe_load(Path("config.yml").read_text())
+        config = yaml.safe_load(Path("config.yaml").read_text())
         username = config['username']
         password = config['password']
         
